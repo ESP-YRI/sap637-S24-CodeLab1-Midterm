@@ -1,5 +1,5 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# Devil's Discretion 
 
-DO NOT LEAVE IT LIKE THIS!!!
-
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+You wish to speak to the king. 
+His guard stands in your path.
+Will you spare them? Or will you teach them what it means to defy a higher power?
