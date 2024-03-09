@@ -48,7 +48,6 @@ public class ASCIILevelLoader : MonoBehaviour
         LoadLevel();
     }
 
-
     public void LoadLevel()
     {
         Destroy(level);
@@ -119,6 +118,8 @@ public class ASCIILevelLoader : MonoBehaviour
 
             }
 
+            //every time a new level loads, the "interactionsLeft" variable must be updated
+            //so, I update it here after the level is done loading in
             GameManager.Instance.interactableNPCS = GameObject.FindGameObjectsWithTag("Interactable");
             GameManager.Instance.interactionsLeft = GameManager.Instance.interactableNPCS.Length;
             GameManager.Instance.levelOver = false;

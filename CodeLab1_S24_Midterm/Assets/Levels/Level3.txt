@@ -1,4 +1,6 @@
 BBBBBBBBBBBBBBBBBB
+BBB------------BBB
+BB--------------BB
 B----------------B
 BP-------G-------B
 BBBBBBBBBBBBBBBBBB

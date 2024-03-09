@@ -609,6 +609,7 @@ MonoBehaviour:
   npcCollider: {fileID: 0}
   bloodPool: {fileID: 21300000, guid: ba469d98017814da4b723cac7fe8ca82, type: 3}
   pacified: {fileID: 21300000, guid: 74c7da817f54344e8831368e647224c6, type: 3}
+  npcText: {fileID: 0}
 --- !u!60 &882685968
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -840,6 +841,7 @@ MonoBehaviour:
   npcCollider: {fileID: 0}
   bloodPool: {fileID: 21300000, guid: ba469d98017814da4b723cac7fe8ca82, type: 3}
   pacified: {fileID: 21300000, guid: 9209e57cc3e524c4996c98650ee65877, type: 3}
+  npcText: {fileID: 0}
 --- !u!60 &1333823769
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1406,6 +1408,7 @@ MonoBehaviour:
   npcCollider: {fileID: 0}
   bloodPool: {fileID: 21300000, guid: ba469d98017814da4b723cac7fe8ca82, type: 3}
   pacified: {fileID: 21300000, guid: d31b75a61da95498b801111ada184a9c, type: 3}
+  npcText: {fileID: 0}
 --- !u!60 &2093948467
 PolygonCollider2D:
   m_ObjectHideFlags: 0

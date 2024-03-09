@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class NPCBehavior : MonoBehaviour
@@ -8,6 +9,8 @@ public class NPCBehavior : MonoBehaviour
     public PolygonCollider2D npcCollider;
     public Sprite bloodPool;
     public Sprite pacified;
+
+    public TextMeshProUGUI npcText;
     
     // Start is called before the first frame update
     void Start()
@@ -23,12 +26,14 @@ public class NPCBehavior : MonoBehaviour
         {
             npcSprite.sprite = bloodPool;
             npcCollider.isTrigger = true;
+            npcText.text = "";
         }
 
         if (tag == "Spared")
         {
             npcSprite.sprite = pacified;
             npcCollider.isTrigger = true;
+            npcText.text = "...";
         }
     }
 }
